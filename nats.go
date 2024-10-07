@@ -39,8 +39,8 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/nats-io/nkeys"
-	"github.com/nats-io/nuid"
+	"github.com/SergeyCYI/nkeys"
+	"github.com/SergeyCYI/nuid"
 
 	"github.com/SergeyCYI/nats.go/util"
 )

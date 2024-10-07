@@ -5,10 +5,9 @@ go 1.21
 toolchain go1.23.2
 
 require (
+	github.com/SergeyCYI/nkeys v0.0.0-20241007152638-8bd296217319
+	github.com/SergeyCYI/nuid v0.0.0-20241007154247-1d7d44e14dc6
 	github.com/klauspost/compress v1.17.10
-	github.com/nats-io/nkeys v0.4.7
-	github.com/nats-io/nuid v1.0.1
-	golang.org/x/text v0.19.0
 	google.golang.org/protobuf v1.35.1
 )
 

@@ -23,7 +23,7 @@ import (
 	"time"
 
 	"github.com/SergeyCYI/nats.go"
-	"github.com/nats-io/nuid"
+	"github.com/SergeyCYI/nuid"
 )
 
 // A Sample for a particular client

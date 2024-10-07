@@ -30,7 +30,7 @@ import (
 	"time"
 
 	"github.com/SergeyCYI/nats.go/internal/parser"
-	"github.com/nats-io/nuid"
+	"github.com/SergeyCYI/nuid"
 )
 
 // ObjectStoreManager creates, loads and deletes Object Stores

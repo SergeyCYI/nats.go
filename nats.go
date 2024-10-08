@@ -2918,7 +2918,7 @@ func (nc *Conn) doReconnect(err error, forceReconnect bool) {
 
 		// Process connect logic
 		if nc.err = nc.processConnectInit(); nc.err != nil {
-			nc.logger.Debugf("conn.doReconnect - nc.createConn: %v, since: %s", nc.err, time.Since(now).String())
+			nc.logger.Debugf("conn.doReconnect - nc.processConnectInit: %v, since: %s", nc.err, time.Since(now).String())
 
 			// Check if we should abort reconnect. If so, break out
 			// of the loop and connection will be closed.
